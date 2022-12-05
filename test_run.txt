@@ -1,0 +1,88 @@
+PS C:\Code School\Object oriented\Hospital Individual> & C:/Users/Seth/AppData/Local/Programs/Python/Python310/python.exe "c:/Code School/Object oriented/Hospital Individual/individual.py"    
+
+Patient Menu
+0 - Return to Main Menu     
+1 - Display patient's list  
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info       
+Enter Option: 1
+
+ID  Name      Diagnosis    Gender   Age
+--  ----      ---------    ------   ---
+12  Pankaj    Leukemia     Male     30
+13  Janina    Cold         Female   23
+14  Alonna    Malaria      Female   45
+15  Ravi      Diabetes     Male     65
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info
+Enter Option: 2
+
+Enter Patient ID: 16
+Patient with ID 16 not in patient file
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info
+Enter Option: 2
+
+Enter Patient ID: 15
+15  Ravi      Diabetes     Male     65
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info
+Enter Option: 3
+
+Enter patient ID: 16
+Enter patient name: Mary
+Enter patient diagnosis: Cancer
+Enter patient gender: Female
+Enter patient age: 55
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info
+Enter Option: 4
+
+Enter Patient ID: 13
+13  Janina    Cold         Female   23
+Patient with ID 13 not in patient file
+Enter new patient name: Janina
+Enter new patient diagnosis: Pneumonia
+Enter new patient gender: Female
+Enter new patient age: 23
+The patients file has been updated! 
+Here is the updated list:
+
+ID  Name      Diagnosis    Gender   Age
+--  ----      ---------    ------   ---
+12  Pankaj    Leukemia     Male     30
+13  Janina    Pneumonia    Female   23
+14  Alonna    Malaria      Female   45
+15  Ravi      Diabetes     Male     65
+16  Mary      Cancer       Female   55
+
+Patient Menu
+0 - Return to Main Menu
+1 - Display patient's list
+2 - Search for patient by ID
+3 - Add Patient
+4 - Edit Patient info
+Enter Option: 0
+
+Exiting the Program.... Have a nice day!
